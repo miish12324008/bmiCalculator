@@ -1,0 +1,58 @@
+body{
+    margin-top: 15%;
+}
+.heading{
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    
+}
+.gender{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#gender{
+    /* height: 25px; */
+    width: 70px;
+}
+.height{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ 
+
+.weight{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-wrap: nowrap;
+}
+#output{
+    
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    border: solid black;
+
+}
+.mainBodyM{
+    background-image: url(./image/boy-8643450_640.webp) !important;
+    color: black !important;
+}
+.mainBodyF{
+    background-image: url(./image/girl-shy-character_1450-155.jpg.avif) !important;
+    color: black !important;
+}
